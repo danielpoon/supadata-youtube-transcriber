@@ -10,7 +10,7 @@ After creating the [gemini-youtube-ai-transcriber](https://github.com/danielpoon
 
 1. The script will pull transcripts of YouTube but it will not provide other functionalities that AI can e.g. a summary or key points
 
-2. The speed is less than 30 seconds each, which is faster than Gemini API although ig time stamping is important, I haven't had success in getting timestamps along side the transcription. You can see a sample in the transcript folder
+2. The speed is less than 30 seconds each, which is faster than Gemini API although ig time stamping is important, I haven't had success in getting timestamps along side the transcription.
 
 3. Cater for pulling multiple YouTube URLs
 
