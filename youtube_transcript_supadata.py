@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-YouTube Transcript Fetcher using Supadata
+Supadata YouTube Transcriber
 
 A script to fetch transcripts from YouTube videos using the Supadata library.
 This script automatically processes URLs from youtube_url.csv and tracks completed/failed URLs.
@@ -189,15 +189,6 @@ def extract_video_id(url: str) -> Optional[str]:
 def get_youtube_transcript(url: str, video_id: str, description: str, language: str = 'en') -> bool:
     """
     Get transcript from a YouTube video using Supadata.
-    
-    Args:
-        url (str): YouTube URL
-        video_id (str): YouTube video ID
-        description (str): Video description from CSV
-        language (str): Preferred language code (e.g., 'en', 'es', 'fr')
-        
-    Returns:
-        bool: True if transcript was successfully fetched and saved, False otherwise
     """
     try:
         # Load API key from environment
