@@ -1,0 +1,6 @@
+# Essential packages for YouTube Transcript Fetcher
+python-dotenv==1.0.0
+supadata==1.2.2
+
+# Note: All other imports (sys, re, os, csv, time, typing) are Python standard library
+# No additional installation needed for those
